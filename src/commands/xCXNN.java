@@ -2,12 +2,12 @@ package commands;
 
 import java.util.Random;
 
-import chip.Chip2;
+import chip.Chip;
 import chip.OpcodeCommand;
 
 public class xCXNN extends OpcodeCommand {
 
-	public xCXNN(Chip2 chip) {
+	public xCXNN(Chip chip) {
 		super(chip);
 	}
 

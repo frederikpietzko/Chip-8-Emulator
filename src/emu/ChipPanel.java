@@ -5,7 +5,6 @@ import java.awt.Graphics;
 
 import javax.swing.JPanel;
 
-import chip.Chip;
 import chip.IChip;
 
 public class ChipPanel extends JPanel {

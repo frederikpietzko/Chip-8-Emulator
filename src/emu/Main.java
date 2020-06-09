@@ -1,7 +1,6 @@
 package emu;
 
 import chip.Chip;
-import chip.Chip2;
 import chip.IChip;
 
 public class Main extends Thread {
@@ -10,7 +9,7 @@ public class Main extends Thread {
 	private ChipFrame frame;
 
 	public Main() {
-		this.chip = new Chip2();
+		this.chip = new Chip();
 		this.chip.init();
 		this.chip.loadProgram("./pong2.c8");
 

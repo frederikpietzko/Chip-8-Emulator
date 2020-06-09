@@ -7,7 +7,6 @@ import java.awt.event.KeyListener;
 
 import javax.swing.JFrame;
 
-import chip.Chip;
 import chip.IChip;
 
 public class ChipFrame extends JFrame implements KeyListener {

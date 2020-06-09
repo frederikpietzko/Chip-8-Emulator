@@ -1,11 +1,11 @@
 package commands;
 
-import chip.Chip2;
+import chip.Chip;
 import chip.OpcodeCommand;
 
 public class x00E0 extends OpcodeCommand {
 
-	public x00E0(Chip2 chip) {
+	public x00E0(Chip chip) {
 		super(chip);
 	}
 
